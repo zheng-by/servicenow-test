@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>This process is for reported phishing issues.</description>
+        <designer_state/>
+        <label>Phishing Instructions</label>
+        <name>phishing_instructions</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 02:50:11</sys_created_on>
+        <sys_id>4f749712476202102f9a7bb4416d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phishing Instructions</sys_name>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_pd_process_definition_4f749712476202102f9a7bb4416d43af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 02:50:11</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>This process is for reported phishing issues.</description>
+        <designer_state/>
+        <label>Phishing Instructions</label>
+        <name>phishing_instructions</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 02:50:11</sys_created_on>
+        <sys_id>4f749712476202102f9a7bb4416d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phishing Instructions</sys_name>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_pd_process_definition_4f749712476202102f9a7bb4416d43af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 02:50:11</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="delete_multiple" query="process_definition=4f749712476202102f9a7bb4416d43af"/>
+    <sys_pd_activity action="delete_multiple" query="process_definition=4f749712476202102f9a7bb4416d43af"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id="/>
+    <sys_json_chunk action="delete_multiple" query="document_id="/>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/>
+</record_update>

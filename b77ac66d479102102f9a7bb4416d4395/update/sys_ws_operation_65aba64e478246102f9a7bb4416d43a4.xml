@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>user_getinfo (v2)</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var userName = request.pathParams.user_name; 
+	var requestSAQuery = request.queryParams.sa_query; 
+
+	var user = new GlideRecord('x_44563_servicen_0_users_for_test');
+	user.get('user_name',userName); 
+
+	if(!user.user_name){   
+    var apiError = new sn_ws_err.ServiceError();   
+    apiError.setStatus(542);   
+    apiError.setMessage("User not found");   
+    apiError.setDetail("No user record found for the user_name passed into the sa_info web service resource using the user_name path parameter.");   
+    response.setError(apiError);   
+    return; 
+	} 
+ 
+	var userSACount = new GlideRecord('x_44563_servicen_0_test_for_test'); 
+	// userSACount.addQuery('age', '>', '30'); // OK
+	userSACount.addEncodedQuery('user_id='+ user.sys_id);
+	userSACount.addEncodedQuery(requestSAQuery);
+	userSACount.query();
+
+	var saUserRecs = []; 
+
+	while (userSACount.next()) {   
+	var age = userSACount.getValue('age');
+	var name = userSACount.getValue('name');
+	var userid = userSACount.getValue('user_id');
+
+	saUserRecs.push({"Name": name, "Age": age, "user_id" : userid}); 
+
+	} 
+
+	var body = {}; 
+	body.saUserRecs = saUserRecs; 
+	body.user = {"userId": user.user_id, 
+	"userName": user.user_name};  
+
+	response.setBody(body); 
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_44563_servicen_0/v2/test_for_rest_api/usergetinfo/{user_name}</operation_uri>
+        <produces>application/json</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/usergetinfo/{user_name}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description>for test  Scripted REST Resource user_getinfo</short_description>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 08:11:04</sys_created_on>
+        <sys_id>65aba64e478246102f9a7bb4416d43a4</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name>user_getinfo (v2)</sys_name>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_ws_operation_65aba64e478246102f9a7bb4416d43a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 01:33:28</sys_updated_on>
+        <web_service_definition display_value="test for REST API">f8836e82478246102f9a7bb4416d4360</web_service_definition>
+        <web_service_version display_value="v2">29aba64e478246102f9a7bb4416d43a1</web_service_version>
+    </sys_ws_operation>
+</record_update>

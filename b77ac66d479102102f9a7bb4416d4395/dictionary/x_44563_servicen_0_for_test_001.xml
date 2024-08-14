@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="56e831da47a942102f9a7bb4416d4322" label="for_test_001" max_length="40" name="x_44563_servicen_0_for_test_001" type="collection">
+        <element choice="1" label="state" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NG" sequence="1" value="NG"/>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

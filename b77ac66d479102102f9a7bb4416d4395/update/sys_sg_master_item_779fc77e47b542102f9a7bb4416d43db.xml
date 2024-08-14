@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_44563_servicen_0_test_for_test</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="for test Form Screen">f79fc77e47b542102f9a7bb4416d43d7</embedded_screen>
+        <item_view/>
+        <name>for test Form Screen Master Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 08:27:58</sys_created_on>
+        <sys_id>779fc77e47b542102f9a7bb4416d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>for test Form Screen Master Item</sys_name>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_sg_master_item_779fc77e47b542102f9a7bb4416d43db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 08:27:58</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="for test List Screen View Config">379fc77e47b542102f9a7bb4416d4386</view_config>
+    </sys_sg_master_item>
+</record_update>

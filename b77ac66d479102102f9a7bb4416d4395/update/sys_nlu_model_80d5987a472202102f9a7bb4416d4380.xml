@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_nlu_model">
+    <sys_nlu_model action="INSERT_OR_UPDATE">
+        <category>virtual_agent</category>
+        <confidence_threshold>0.6</confidence_threshold>
+        <description/>
+        <display_name>CD Self Service</display_name>
+        <ignore_punctuation/>
+        <language>en</language>
+        <last_translated_on/>
+        <model_domain/>
+        <name>ml_x_44563_x_44563_servicen_0_global_80d5987a472202102f9a7bb4416d4380</name>
+        <oob>false</oob>
+        <primary_model/>
+        <state>Draft</state>
+        <sys_class_name>sys_nlu_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 01:43:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80d5987a472202102f9a7bb4416d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CD Self Service</sys_name>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_nlu_model_80d5987a472202102f9a7bb4416d4380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 01:43:15</sys_updated_on>
+        <threshold_type>automatic</threshold_type>
+        <vocabulary_needs_review>false</vocabulary_needs_review>
+    </sys_nlu_model>
+</record_update>

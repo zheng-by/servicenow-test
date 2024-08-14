@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="739fc77e47b542102f9a7bb4416d43d6 Item Stream">339fc77e47b542102f9a7bb4416d43da</item_stream>
+        <segment display_value="for test Item Stream Segment">b39fc77e47b542102f9a7bb4416d43d9</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 08:27:58</sys_created_on>
+        <sys_id>fb9fc77e47b542102f9a7bb4416d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_fb9fc77e47b542102f9a7bb4416d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 08:27:58</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

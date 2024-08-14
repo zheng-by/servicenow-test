@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d0c721e47ad42102f9a7bb4416d439d" label="test_for_table_001" max_length="40" name="x_44563_servicen_0_test_for_table_001" type="collection">
+        <element display="true" label="ID" max_length="40" name="id" type="string"/>
+        <element choice="1" label="state" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="NG" sequence="1" value="NG"/>
+            </choice>
+        </element>
+    </element>
+</database>
