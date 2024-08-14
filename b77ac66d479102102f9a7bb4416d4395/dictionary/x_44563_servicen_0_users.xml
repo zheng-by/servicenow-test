@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6bbb82ed479102102f9a7bb4416d438c" label="users" max_length="40" name="x_44563_servicen_0_users" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="address" max_length="40" name="address" type="string"/>
+        <element label="Password" max_length="40" name="password" type="string"/>
+        <element label="User Name" max_length="40" name="user_name" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="User age" max_length="40" name="user_age" type="integer"/>
+        <element label="User ID" max_length="40" name="user_id" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

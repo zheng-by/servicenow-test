@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="New Tab 1">9736ca24474b86102f9a7bb4416d43ee</canvas_page>
+        <name>db36ca24474b86102f9a7bb4416d43f1New Tab 1</name>
+        <page display_value="New Tab 1">d736ca24474b86102f9a7bb4416d43ec</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 06:39:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db36ca24474b86102f9a7bb4416d43f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>db36ca24474b86102f9a7bb4416d43f1New Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>pa_tabs_db36ca24474b86102f9a7bb4416d43f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 06:39:30</sys_updated_on>
+    </pa_tabs>
+</record_update>

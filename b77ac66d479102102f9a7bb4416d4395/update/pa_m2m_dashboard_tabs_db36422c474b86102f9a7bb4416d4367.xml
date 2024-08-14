@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="test my Dashboard">59a546e8474b86102f9a7bb4416d435a</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 06:39:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db36422c474b86102f9a7bb4416d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>59a546e8474b86102f9a7bb4416d435a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_db36422c474b86102f9a7bb4416d4367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 06:39:30</sys_updated_on>
+        <tab display_value="New Tab 1">db36ca24474b86102f9a7bb4416d43f1</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

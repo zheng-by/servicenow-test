@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-08-14 02:09:00">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 09:04:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>287766ec47cb86102f9a7bb4416d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_portal_page_287766ec47cb86102f9a7bb4416d4344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 09:04:35</sys_updated_on>
+        <title>New Tab 1</title>
+        <user/>
+        <view>new_tab_1_1</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">287766ec47cb86102f9a7bb4416d4344</page>
+                <summary>Open Incidents by State (My Groups)</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-06-24 09:05:30</sys_created_on>
+                <sys_id>0aa7eeac47cb86102f9a7bb4416d43ee</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-06-24 09:05:30</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-06-24 02:05:30">0aa7eeac47cb86102f9a7bb4416d43ee</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:05:30</sys_created_on>
+                        <sys_id>06a7eeac47cb86102f9a7bb4416d43f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:05:30</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-06-24 02:05:30">0aa7eeac47cb86102f9a7bb4416d43ee</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:05:30</sys_created_on>
+                        <sys_id>42a7eeac47cb86102f9a7bb4416d43f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:05:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-06-24 02:05:30">0aa7eeac47cb86102f9a7bb4416d43ee</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:05:30</sys_created_on>
+                        <sys_id>8ea7eeac47cb86102f9a7bb4416d43ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:05:30</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-06-24 02:05:30">0aa7eeac47cb86102f9a7bb4416d43ee</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:05:30</sys_created_on>
+                        <sys_id>c6a7eeac47cb86102f9a7bb4416d43f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:05:30</sys_updated_on>
+                        <value>Open Incidents by State (My Groups)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-06-24 02:05:30">0aa7eeac47cb86102f9a7bb4416d43ee</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:05:30</sys_created_on>
+                        <sys_id>caa7eeac47cb86102f9a7bb4416d43ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:05:30</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-06-24 02:05:30">0aa7eeac47cb86102f9a7bb4416d43ee</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:05:30</sys_created_on>
+                        <sys_id>cea7eeac47cb86102f9a7bb4416d43ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:05:30</sys_updated_on>
+                        <value>d174b9cf470111002ee987e8dee49004</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">287766ec47cb86102f9a7bb4416d4344</page>
+                <summary>Open Incidents older than 30 Days </summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                <sys_id>2d182228470f86102f9a7bb4416d4346</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-06-24 02:07:23">2d182228470f86102f9a7bb4416d4346</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                        <sys_id>2d182228470f86102f9a7bb4416d4347</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2024-06-24 02:07:23">2d182228470f86102f9a7bb4416d4346</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                        <sys_id>69182228470f86102f9a7bb4416d4347</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-06-24 02:07:23">2d182228470f86102f9a7bb4416d4346</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                        <sys_id>a1182228470f86102f9a7bb4416d4348</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                        <value>Open Incidents older than 30 Days </value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-06-24 02:07:23">2d182228470f86102f9a7bb4416d4346</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                        <sys_id>a5182228470f86102f9a7bb4416d4347</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-06-24 02:07:23">2d182228470f86102f9a7bb4416d4346</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                        <sys_id>ad182228470f86102f9a7bb4416d4346</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                        <value>55a549b1d7030200eaae68150e6103a4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-06-24 02:07:23">2d182228470f86102f9a7bb4416d4346</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                        <sys_id>e1182228470f86102f9a7bb4416d4347</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2024-06-24 02:07:23">2d182228470f86102f9a7bb4416d4346</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                        <sys_id>e5182228470f86102f9a7bb4416d4348</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-06-24 02:07:23">2d182228470f86102f9a7bb4416d4346</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:07:23</sys_created_on>
+                        <sys_id>ed182228470f86102f9a7bb4416d4347</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:07:23</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">287766ec47cb86102f9a7bb4416d4344</page>
+                <summary>Active Incidents with Critical Priority</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-06-24 09:10:45</sys_created_on>
+                <sys_id>87d8a2e4470f86102f9a7bb4416d43e0</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-06-24 09:12:00</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-06-24 02:10:45">87d8a2e4470f86102f9a7bb4416d43e0</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:10:46</sys_created_on>
+                        <sys_id>07d8a2e4470f86102f9a7bb4416d43e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:10:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-06-24 02:10:45">87d8a2e4470f86102f9a7bb4416d43e0</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:10:45</sys_created_on>
+                        <sys_id>0bd8a2e4470f86102f9a7bb4416d43e0</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:12:00</sys_updated_on>
+                        <value>c529eee4470f86102f9a7bb4416d430d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-06-24 02:10:45">87d8a2e4470f86102f9a7bb4416d43e0</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:10:46</sys_created_on>
+                        <sys_id>43d8a2e4470f86102f9a7bb4416d43e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:10:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-06-24 02:10:45">87d8a2e4470f86102f9a7bb4416d43e0</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:10:46</sys_created_on>
+                        <sys_id>47d8a268470f86102f9a7bb4416d4312</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:12:00</sys_updated_on>
+                        <value>Active Incidents with Critical Priority</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-06-24 02:10:45">87d8a2e4470f86102f9a7bb4416d43e0</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-06-24 09:10:45</sys_created_on>
+                        <sys_id>8fd8a2e4470f86102f9a7bb4416d43e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-06-24 09:10:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

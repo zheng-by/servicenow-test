@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="New Tab 1">9736ca24474b86102f9a7bb4416d43ee</grid_canvas>
+        <height>53</height>
+        <portal_widget display_value="Created 2024-06-23 23:48:26">46484aac474b86102f9a7bb4416d4340</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 06:48:26</sys_created_on>
+        <sys_id>4e484aac474b86102f9a7bb4416d4341</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>9736ca24474b86102f9a7bb4416d43ee</sys_name>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_4e484aac474b86102f9a7bb4416d4341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 07:39:16</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</application>
+        <file_path/>
+        <instance_id>1dcd78831b6ab9d0fe1b43f4bd4bcb93</instance_id>
+        <instance_name>dev219245</instance_name>
+        <name>sys_grid_canvas_pane_4e484aac474b86102f9a7bb4416d4341</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="New Tab 1">9736ca24474b86102f9a7bb4416d43ee</grid_canvas><height>53</height><portal_widget display_value="Created 2024-06-23 23:48:26">46484aac474b86102f9a7bb4416d4340</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-24 06:48:26</sys_created_on><sys_id>4e484aac474b86102f9a7bb4416d4341</sys_id><sys_mod_count>43</sys_mod_count><sys_name>9736ca24474b86102f9a7bb4416d43ee</sys_name><sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package><sys_policy/><sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope><sys_update_name>sys_grid_canvas_pane_4e484aac474b86102f9a7bb4416d4341</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-24 07:39:16</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-750463533</payload_hash>
+        <record_name>9736ca24474b86102f9a7bb4416d43ee</record_name>
+        <reverted_from/>
+        <source>3b7ac66d479102102f9a7bb4416d43b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 07:39:16</sys_created_on>
+        <sys_id>b2e316ac478b86102f9a7bb4416d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190492f52a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 07:39:16</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>7ae316acde8b8610586ef82a0e5f53e9</update_guid>
+        <update_guid_history>7ae316acde8b8610586ef82a0e5f53e9:-750463533,bee316ac2f8b8610a68532815583fbdb:-1018008430,6ee316ac148b8610e1495cee48913bc0:-1285553327,62e31e6c278b8610ec9cc5a8a5c85a0e:-1553098224,52e3da6cfc8b8610dbe6d69c0cbc7bed:1150848634,dee3d66c748b8610b3a1f7ff2e8947d5:883303737,9ae3926cbd8b86104ac76aac350b86a8:615758840,0ee3da6c448b8610ff56e3db6af66990:348213943,86e3d2ac158b86106bc98a063adb0b49:80669046,0ee3da6c1d8b8610613cbc6596395aac:-186875851,8ee39a6c358b86104dc4f8b0429601a6:-454420748,82e39e6c048b86104848266f20d93ca1:-721965645,b9e3166caf8b8610221a6bb6f49a440e:-989510542,7de3526c598b8610b8bee7ef0d41f4df:-1257055439,7de316ac6f8b8610204f6b177d67e4fa:1446891419,7de3da6cca8b8610ea7dad936aea5ec3:1179346522,a1e316aca28b86109169c6e811c8a6e2:911801625,21e3d26c448b86100b6717b0f7d976ae:644256728,d5e3526cad8b861084e73f2e0b5aa1a1:376711831,1bf25e2c2e8b8610129e3616d03e84f2:109166934,4ff2de2c028b8610e5ce9517208e5c4b:-158377963,4bf2dee8f38b8610444d664333b1b212:-425922860,cbf2de2cc88b8610b7bcc22db8e7d63d:-693467757,03f2de2c618b86102907fc2eba415b2f:-961012654,7af2de2cc28b8610c7bcb70274e31e16:1742934204,7af2dee8f68b8610f035bd8ab2134007:1475389307,94f2de2cce8b8610fd51306352322b44:1207844410,90f2dee80d8b8610a7df0255164ccc0b:940299513,88f2daac1f4b861087706dec1029d828:672754616,f3e252a8e98b8610cec8f63e55481795:405209719,fbe21a68928b8610cc1c7b286174c298:137664822,b3e2dee8b48b861027a418d955511200:-129880075,37e2de2c598b8610d11e1270b415be05:-397424972,6fe2122ca88b8610bf639a35c9b58669:-664969869,9fe252ecee4b8610a9c00e170759af9d:2038976989,93e2dee8128b8610c0cc3a42ab515462:1771432092,17e29e2c558b8610ed0f47f791e0e9ae:1503887195,4fe29eac424b8610108efeb45b942873:1236342298,07e212a8e28b861036c05c8b1a5f5e6a:968797401,f6e252a8f98b86101b5b7ea43008cba9:701252504,3de252ece54b86107c99e19df525c178:433707607,29e29ee8da8b8610c0c9fb3c2dd123ef:166162710,95e2de28eb8b861076556611e25fe540:-101382187,8e484aaca74b861013eb48e3211f4842:-368927084</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 07:41:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>1b10690c81b24b09905512996587d129</sys_id>
+        <sys_metadata>4e484aac474b86102f9a7bb4416d4341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9736ca24474b86102f9a7bb4416d43ee</sys_name>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_scope_delete display_value="">4a32f5b00f764e3bb67d9e0edf3fccc9</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_4e484aac474b86102f9a7bb4416d4341</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_4e484aac474b86102f9a7bb4416d4341">b2e316ac478b86102f9a7bb4416d43ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 07:41:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

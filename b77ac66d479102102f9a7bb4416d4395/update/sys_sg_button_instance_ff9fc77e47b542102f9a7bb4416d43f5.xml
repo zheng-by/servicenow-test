@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="New Button (for test)">bf9fc77e47b542102f9a7bb4416d43e4</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>New</label>
+        <location>top</location>
+        <name>New</name>
+        <order/>
+        <parent>739fc77e47b542102f9a7bb4416d43d6</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 08:27:58</sys_created_on>
+        <sys_id>ff9fc77e47b542102f9a7bb4416d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New</sys_name>
+        <sys_package display_value="servicenow-test" source="x_44563_servicen_0">b77ac66d479102102f9a7bb4416d4395</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow-test">b77ac66d479102102f9a7bb4416d4395</sys_scope>
+        <sys_update_name>sys_sg_button_instance_ff9fc77e47b542102f9a7bb4416d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 08:27:58</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff9fc77e47b542102f9a7bb4416d43f5"/>
+</record_update>

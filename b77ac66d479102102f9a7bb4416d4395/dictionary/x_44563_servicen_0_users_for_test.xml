@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="99ace45a470602102f9a7bb4416d4309" label="users_for_test" max_length="40" name="x_44563_servicen_0_users_for_test" type="collection">
+        <element display="true" label="user_id" mandatory="true" max_length="40" name="user_id" read_only="true" type="string"/>
+        <element label="user_name" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

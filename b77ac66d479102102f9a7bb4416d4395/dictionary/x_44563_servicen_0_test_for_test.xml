@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d064a53f475502102f9a7bb4416d4389" label="test_for_test" max_length="40" name="x_44563_servicen_0_test_for_test" type="collection">
+        <element label="user_id" max_length="32" name="user_id" reference="x_44563_servicen_0_users_for_test" type="reference" use_dependent_field="true"/>
+        <element label="gname" max_length="32" name="gname" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="state" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="working" sequence="0" value="working"/>
+                <element inactive_on_update="false" label="open" sequence="2" value="open"/>
+                <element inactive_on_update="false" label="close" sequence="1" value="close"/>
+            </choice>
+        </element>
+        <element label="age" max_length="40" name="age" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="gname"/>
+        </index>
+        <index name="index2">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>
