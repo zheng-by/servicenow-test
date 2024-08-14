@@ -6,9 +6,11 @@
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="dissplay name" max_length="100" name="u_string_1" type="string"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="New Due Date" max_length="40" name="u_due_date_1" type="due_date"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
